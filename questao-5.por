@@ -36,10 +36,12 @@ programa {
 		} senao se (anoA > anoN) {
 		    auxAno = anoA - anoN
 		    diastotal = diastotal + (auxAno * 365)
+		    escreva("Você tem ",diastotal," dias de vida.")
 		} senao {
 		    diastotal = diastotal + 0
+		    escreva("Você tem ",diastotal," dias de vida.")
 		}
 		
-		escreva("Você tem ",diastotal," dias de vida.")
+		
 	}
 }
